@@ -60,7 +60,7 @@ import { mapActions, mapState } from 'vuex';
         prevStatus: '',
         text: '',
         tabs:null,
-        status: ''
+      //   status: ''
       }
     },
     methods:{
@@ -70,7 +70,7 @@ import { mapActions, mapState } from 'vuex';
       submit(){
         console.log(this.searchQuery)
         let query = this.searchQuery;
-        this.status = 'searching'
+      //   this.status = 'searching'
         this.searchKeyword(query);
         
       },

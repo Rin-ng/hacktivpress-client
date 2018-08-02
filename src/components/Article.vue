@@ -45,6 +45,7 @@ export default{
       this.deleteArticle(id);
     },
     search(category){
+       console.log("!!!", category)
       this.searchByCategory(category);
     }
   },
